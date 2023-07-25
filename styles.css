@@ -1,3 +1,70 @@
 body{
-     background-color: aqua;
+     background-color: #E6FFFD;
+     margin-top: 50px;
+     margin-left:20px;
+     margin-right:20px;
+     margin-bottom:50px;
 }
+
+h1{
+    color:#27374D;
+    font-size:xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+.fi{
+     width:350px;
+     border:5px solid#27374D;
+     padding:10px;
+     margin:30px;
+     background-color:#E3F4F4;
+     margin-left:430px;
+     position:absolute;
+     float: center;
+     align-self: center;
+     text-align: center;
+}
+
+
+.task_button{
+     font-size: larger;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     text-align: center;
+     color:#27374D ;
+}
+.saving{
+     font-size: larger;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     align-self: center;
+}
+.listing{
+     width: 300px;
+     border: 10px solid#27374D;
+     padding:30px;
+     margin:80px;
+     background-color:#E3F4F4;
+     margin-left:430px;
+     position:absolute;
+     float: center;
+     color:#068DA9;
+     text-align:left;
+     font-size: larger;
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight:100;
+}
+
+
+
+
+     
+
+
+
+

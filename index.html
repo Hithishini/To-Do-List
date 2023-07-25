@@ -4,25 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo</title>
+    <title>To-Do</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <h1>To-Do</h1>
-    <form>
-        <label for="task">Your Task:</label>
-        <input type="text" name="task" id="task"><br>
+    <h1>To-Do List</h1>
 
-        <input type="submit" value="save">
-    </form>
-    <div>
+    <form class="fi">
+        <label for="task" class= "task_button">Your Task:</label>
+        <input type="text" name="task" id="task">
+
+        <input type="submit" value="save" class="saving">
+    </form><br>
+
+    <form class="listing">
         <ul>
-            <li>Siddhu</li> <button type="button" class="deletebtn">Delete</button>
-            <li>Bhaagi</li><button type="button" class="deletebtn">Delete</button>
-            <li>Hithu</li><button type="button" class="deletebtn">Delete</button>
-        </ul>
-       
-    </div>
+            <li>
+                <input type="checkbox" name="task_1" id="first_task">
+                <label for="task_1">Set the bed</label>
+                <button type="button" class="editbtn">Edit</button><br>
+            </li>
+            <li>
+                <input type="checkbox" name="task_2" id="second_task">
+                <label for="task_1">Clean the room</label>
+                <button type="button" class="editbtn">Edit</button><br>
+            </li>
+            <li>
+                <input type="checkbox" name="task_3" id="third_task">
+                <label for="task_1">Read a book</label>
+                <button type="button" class="editbtn">Edit</button><br>
+            </li>
+        </ul>    
+    </form>
     
 </body>
+<link rel="backend" href="script.js">
 </html>
