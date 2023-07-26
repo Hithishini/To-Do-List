@@ -9,35 +9,28 @@
 
 </head>
 <body>
-    <h1>To-Do List</h1>
+    <h1>My To-Do List</h1>
 
-    <form class="fi">
+    <form class="fi" id="adding_task">
         <label for="task" class= "task_button">Your Task:</label>
-        <input type="text" name="task" id="task">
+        <input type="text" placeholder="Task" id="task">
 
-        <input type="submit" value="save" class="saving">
+        <input type="button" value="save" class="saving" onclick="newElement()">
     </form><br>
 
-    <form class="listing">
-        <ul>
-            <li>
-                <input type="checkbox" name="task_1" id="first_task">
-                <label for="task_1">Set the bed</label>
-                <button type="button" class="editbtn">Edit</button><br>
-            </li>
-            <li>
-                <input type="checkbox" name="task_2" id="second_task">
-                <label for="task_1">Clean the room</label>
-                <button type="button" class="editbtn">Edit</button><br>
-            </li>
-            <li>
-                <input type="checkbox" name="task_3" id="third_task">
-                <label for="task_1">Read a book</label>
-                <button type="button" class="editbtn">Edit</button><br>
-            </li>
-        </ul>    
-    </form>
     
+        <ul class="listing"id="Task_list">
+          <!--<li class="done">task-1 &nbsp;
+                <button type="button" class="delbtn">Delete</button><br>   
+            </li>
+            <li>task-2 &nbsp;
+                <button type="button" class="delbtn">Delete</button><br>
+            </li>
+            <li>task-3 &nbsp;
+                <button type="button" class="delbtn">Delete</button><br>
+            </li>-->
+        </ul>    
+    
+<script src="script.js"></script>   
 </body>
-<link rel="backend" href="script.js">
 </html>

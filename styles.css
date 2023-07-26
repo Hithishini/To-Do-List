@@ -1,5 +1,5 @@
 body{
-     background-color: #E6FFFD;
+     background:radial-gradient(#E6FFFD,#91C8E4,#99DBF5);
      margin-top: 50px;
      margin-left:20px;
      margin-right:20px;
@@ -38,11 +38,13 @@ h1{
      color:#27374D ;
 }
 .saving{
-     font-size: larger;
+     font-size: medium;
      font-family: Arial, Helvetica, sans-serif;
      font-style: normal;
-     font-weight: 100;
+     font-weight:50;
      align-self: center;
+     height:30px;
+     width:50px;
 }
 .listing{
      width: 300px;
@@ -58,12 +60,35 @@ h1{
      font-size: larger;
      font-family:Arial, Helvetica, sans-serif;
      font-weight:100;
+     user-select: none;
+     cursor: pointer;
+}
+.listing::before{
+     content: '';
+     position: absolute;
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+     background-size: cover;
+
+}
+.done{
+     text-decoration: line-through;
+     color: #27374D;
 }
 
+.del{
+     position:absolute;
+     right: 0;
+     text-align: center;
+
+}
+.del:hover{
+     background: #27374D;
+}
+ 
 
 
-
-     
 
 
 
